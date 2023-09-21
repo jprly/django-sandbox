@@ -1,0 +1,40 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#link {
+    text-align: center;
+}
+#link a {
+    background-color: rgb(10, 75, 51);
+    font-size: large;
+    color: white;
+    padding: 0.25em;
+    text-decoration: none;
+    text-align: center;
+}
+#one, #two, #three, #four {
+    width: 25%;
+    position: fixed;
+    padding: 0.25em;
+}
+#one {
+    border: solid 5px blue;
+    bottom: 1em;
+    right: 1em;
+}
+#two {
+    border: solid 5px green;
+    top: 1em;
+    right: 1em;
+}
+#three {
+    border: solid 5px orange;
+    top: 1em;
+    left: 1em;
+}
+#four {
+    border: solid 5px yellow;
+    bottom: 1em;
+    left: 1em;
+}
