@@ -12,8 +12,6 @@ urlpatterns = [
     path('polls/', include('polls.urls')),                                                                                           
     path('', include('home.urls')),                                                                                           
     path('hello/', include('hello.urls')),                                                                                           
-    # re_path(r'^site/(?P<path>.*)$', serve,
-    #     {'document_root': SITE_ROOT, 'show_indexes': True},
-    #     name='site_path'
-    # ),
+    path('accounts/', include('django.contrib.auth.urls')),
+    path('autos/', include('autos.urls')),
 ]
